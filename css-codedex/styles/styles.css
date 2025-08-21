@@ -1,0 +1,176 @@
+:root{
+    --background-color: #fdc029;
+    --second-color: #df861d;
+    --thirth-color: #bcb6ae;
+    --fourth-color: #aa3d01;
+    --text-color: #171820;
+    --fifth-color: #f9f9f9;
+}
+
+/* Header */
+
+body {
+    display: block;
+    font-family: "Roboto Mono", monospace;
+    top: 0;
+}
+
+header {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+header > h1 {
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    font-weight: 800;
+    font-size: 90px;
+    transition: all 0.5s ease;
+}
+
+header > h1:hover {
+    font-weight: 900;
+    font-size: 95px;
+}
+
+
+/* BODY */
+
+/* ABOUT US */
+
+.aboutUs {
+    margin: 0;
+    background-color: var(--fifth-colorr);
+    display: block;
+    text-align: center;
+}
+
+.aboutUs > h1 {
+    background-color: var(--second-color);
+    color: #f9f9f9;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+}
+
+.aboutUs > p {
+    padding: 2rem;
+    font-size: 20px;
+}
+
+/* PROJECTS */
+
+.projects {
+    display: block;
+    text-align: center;
+}
+
+.projects > h1 {
+    background-color: var(--fourth-color);
+    color: var(--fifth-color);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+}
+
+.projects > p {
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.cards {
+    display: inline-block;
+}
+
+.card1, .card2, .card3 {
+    background-color: var(--thirth-color);
+    padding: 1rem;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.cards img {
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* CONTACT */
+
+.contact {
+    text-align: center;
+}
+
+.contact > h1 {
+    background-color: var(--text-color);
+    color: var(--fifth-color);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+}
+
+.contact > p {
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.datos ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 20px;
+}
+
+.datos > ul {
+    margin: 3rem 1rem;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5rem;
+    
+}
+
+/* FOOTER */
+
+footer {
+    background-color:var(--background-color);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* BLOQUE */
+
+#boxDiv {
+    background-color: var(--fourth-color);
+    color: var(--fifth-color);
+    padding: 10px;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    width: 25%;
+    position: fixed;
+    top: 100px;
+    left: 15px;
+    z-index: 1;
+    text-align: center;
+}
+
+#boxDiv img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 0.5rem;
+}
